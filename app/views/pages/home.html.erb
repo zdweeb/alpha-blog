@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><%= link_to 'About', about_path %></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Udemy Alpha Blog Project 1</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Alpha Blog</h1>
+        <p class="lead">A template of Project One 'Alpha Blog' in The Complete Ruby on Rails course at Udemy.</p>
+        <p><%= link_to "Learn More on Udemy", "http://udemy.com", :target => "_blank", :class => "btn btn-lg btn-success", :role => "button"%></p>
+        <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Learn More on Udemy</a></p>-->
+      </div>
+<div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Principal Developer</h4>
+          <p>Developed by William Voll (@zdweeb) and Noriosoft LLC, @www.nordiosoft.com</p>
+
+          <h4>Ruby on Rails</h4>
+          <p>Fullstack web application development with Ruby on Rails, @www.rubyonrails.org</p>
+
+          <h4>Bootstrap</h4>
+          <p>Styling made easy with Boostrap, @www.getbootstrap.com</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Udemy</h4>
+          <p>The elite place to learn, Udemy @www.udemy.com</p>
+
+          <h4>Mashur Hossain</h4>
+          <p>The complete Ruby on Rails course by Mashur Hossain</p>
+
+          <h4>Rob Percival</h4>
+          <p>The complete Ruby on Rails course by Rob Percival</p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2015 Noriosoft, LLC. <span>Template 'Narrow Jumbotron' from GetBootstrap.Com</span></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

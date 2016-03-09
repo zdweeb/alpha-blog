@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><%= link_to 'Home', root_path %></li>
+            <li role="presentation" class="active"><%= link_to 'About', about_path %></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Udemy Alpha Blog Project 1 - About</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h2>About William Voll</h2>
+        <%= image_tag('IMG_0325.jpg', class: "img-circle", size: "240x320") %>
+        <!--<p class="lead">A template of Project One 'Alpha Blog' in The Complete Ruby on Rails course at Udemy.</p>-->
+        <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Learn More on Udemy</a></p>-->
+      </div>
+<div class="row marketing">
+        <div class="col-lg-12">
+          <h4>Principal Developer</h4>
+          <p>Developed by William Voll (@zdweeb) and Noriosoft LLC, @www.nordiosoft.com</p>
+
+          <h4>About</h4>
+          
+            <p>William has been a Software Engineer since 1998 cutting his teeth on Microsoft Visula Basic 6 in Syracuse, New York. 
+          In 1999 William moved to Rochester, New York to take a position with Kodak as a Visual Basic 6 tools developer
+          supporting Embedded Engineers working on the Digital press 'Nexpress'. It was durning his 4 year tenure he fell in
+          love with Python and subsequently the web application framework Zope, (hence his alias @zdweeb). After four years and one trip 
+          to Heidelburg, Germany, to deploy his flagship app 'ACOT - Assembly Checkout Tool' he was laid off.</p>
+          
+          <h4>Moving out West</h4>
+          <p>Being self taught William had difficulty finding a job post 9/11, convinced he needed a BS in CS he moved to Salt Lake City, Utah
+          to attend newly opended private school 'Neumont University'. It was there in 2005 William found Ruby and Ruby on Rails
+          and in its infancy he developed capstone projects each semester in this obscure platform. The school was teaching c# and Java, in 
+          which William did well. After graduation in 2007 William took a startup job which lasted 8 months then later found a job using Python and django.
+          Once again laid off William fell ill in 2009 after the death of his Father.</p>
+          
+          <h4>Moving back East</h4>
+          <p>Recovering in 2010 William found
+          his way back to Rochester, New York and working for Xerox with his beloved Ruby and Rails. This time supporting the PhD's,
+          developing complex financial predicting algorythms by building prototype apps in Flex with Rails backend. He was also introduced
+          to Hadoop. With a family illness in 2011 William opted to leave Xerox to work at home for a startup developing a self publishing
+          platform in Rails. After 9 months William's illness returned. It is now, after 4 years of not coding William is using 
+          the excellent courses at Udemy to gain his confidence to return to the workforce once again with skills in Ruby, Rails
+          and iOS.</p>
+          
+
+        </div>
+
+        
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2015 Noriosoft, LLC. <span>Template 'Narrow Jumbotron' from GetBootstrap.Com</span></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
