@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   
   # get 'pages/home', to: 'pages#home'
   
+  # 'about' goes to 'about_path'
   get 'about', to: 'pages#about'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
