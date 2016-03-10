@@ -8,7 +8,7 @@ class ArticlesController < ApplicationController
     # render plain: params[:article].inspect
     @article = Article.new(article_params)
     @article.save
-    render plain: params[:article].inspect
+    redirect_to articles_show(article)
   end
   
   private
