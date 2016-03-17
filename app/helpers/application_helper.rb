@@ -6,4 +6,8 @@ module ApplicationHelper
     gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
     image_tag(gravatar_url, alt: user.username, class: "img-circle")
   end
+  
+   def active_class(link_path)
+    current_page?(link_path) ? "active" : ""
+   end
 end
